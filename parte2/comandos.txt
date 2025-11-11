@@ -1,0 +1,4 @@
+docker build -t mi-app-python:examen .
+docker run -d -p 5000:5000 --name app-examen mi-app-python:examen
+curl.exe http://localhost:5000/
+curl.exe http://localhost:5000/salud
